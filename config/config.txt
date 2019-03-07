@@ -1,0 +1,14 @@
+[CentOS]
+Processor(s): 1 CPU 1 CORE
+Memory: 1GB RAM 
+Video Memory: 16 mb 
+Network Adapters:
+	a) Intel PRO/1000 MT Desktop 
+		Attached to: NAT
+		MAC Adress: 0800270FC9CD
+	b) Intel PRO/1000 MT Desktop
+		Attached to: Host-only Adapter - VirtualBox Host-Only Ethernet Adapter
+		Promiscous Mode: Deny
+		MAC Adress:  0800277FAAB3
+Update SO: Yes
+Applications: git
