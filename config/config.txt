@@ -2,14 +2,9 @@ Hostname:CentOS
 Processor(s): 1 CPU 1 CORE
 Memory: 1GB RAM 
 Video Memory: 16 mb 
-Network Adapters:
-a) Intel PRO/1000 MT Desktop 
-Attached to: NAT
-MAC Adress: 0800270FC9CD
-b) Intel PRO/1000 MT Desktop
-Attached to: Host-only Adapter - VirtualBox Host-Only Ethernet Adapter
-Promiscous Mode: Deny
-MAC Adress:  0800277FAAB3
-
+IPenp0s3:10.0.2.15
+Gatewayenp0s3: 10.0.2.0 
+IPenp0s8:192.168.56.101
+Gatewayenp0s8: 192.168.56.0
 Update SO: Yes
 Applications: git
