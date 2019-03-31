@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python /root/pywumpus/setup.py
+python /root/tema2/pywumpus/setup.py
