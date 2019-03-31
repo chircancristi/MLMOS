@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "hello world"
+python /root/pywumpus/setup.py
