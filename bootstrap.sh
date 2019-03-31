@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#  yum -y -q update
+#yum -y -q update
 
-# exec 2>&1 >> /var/log/system-bootstrap.log
+#exec 2>&1 >> /var/log/system-bootstrap.log
 
 key=$(cat /home/ccristian/.ssh/id_rsa.pub ) 
 
@@ -20,5 +20,6 @@ grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config && sed -i "/^[^#]*Pa
 systemctl restart sshd.service
 
 
-#sed -i 's/enfiring/disabled/g' /etc/selinux/config
-#setenforce 0
+sed -i 's/enfiring/disabled/g' /etc/selinux/config
+setenforce 0
+ 
