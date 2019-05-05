@@ -2,6 +2,7 @@
 
 systemctl enable sshd
 systemctl start sshd
+firewall-cmd --permanent --add-service=http
 systemctl reload firewalld
 systemctl enable postfix
 systemctl start postfix 
